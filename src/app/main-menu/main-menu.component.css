@@ -1,0 +1,26 @@
+.noPadding { padding: 0}
+
+img:hover {
+  /* outline: 2px solid steelblue; */
+  box-shadow: 0px 0px 45px rgb(59, 101, 165)
+}
+
+.selected { box-shadow: 0px 0px 25px rgb(165, 137, 59)}
+
+.card {
+  margin: 1em auto;
+}
+.card-body {
+  margin-top: -2em;
+  color: white;
+  text-align: center;
+}
+
+.card-title {
+  margin-left: .5em;
+  text-align: left;
+}
+
+.card-footer { background-color: black; }
+
+hr { border-top: 4px double #deb887 }

@@ -1,0 +1,66 @@
+.row.set-columns {
+
+  column-width: 19em;
+  column-width: 19em;
+  column-gap: 1em;
+  column-gap:1em;
+  -moz-column-width: 19em;
+  -webkit-column-width: 19em;
+  -moz-column-gap: 1em;
+  -webkit-column-gap:1em;
+}
+
+.row.set-columns > div {
+  display: inline-block;
+  padding:  .5em;
+  width:  100%;
+}
+
+.img-div {
+  display: inline-block;
+  height: 100%;
+  width:  100%;
+}
+
+/* .img-parent {
+  margin: 0 0 0 0;
+  padding: 0 0 1em 0;
+} */
+
+.img-button {
+  border-radius: .25em;
+  margin: 0 0 .75em 0;
+  /* margin: 0 0 0 0; */
+}
+
+
+.modal-image {
+  margin: auto;
+  /* min-height: 80vh; */
+}
+
+#modal-close-button { margin-top: 1000;
+  float: right;
+}
+
+.app-modal-footer { text-align: left; }
+
+.edit-button { position: absolute; }
+
+
+
+
+
+
+
+
+
+
+/* .edit-button {
+  position: absolute;
+  margin: -4em 0 0 0.5em;
+} */
+
+
+
+

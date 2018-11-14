@@ -1,0 +1,42 @@
+<div class="container-fluid no-padding col-xs-12">
+  <div class="row">
+      <div class="container">
+
+        <div class="card col-xs-6 col-sm-3 active" (click)="onCategoryClick('Humanitarian')">
+          <img class="card-img img-responsive center-block"  [ngClass]="{'selected' : selectedCategory == 'Humanitarian'}" src="../../assets/images/human-340x230.jpg" alt="Card image cap">
+          <div class="card-img-overlay">
+            <div class="card-body">
+                <h5 class="card-title">Humanitarian</h5>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="card col-xs-6 col-sm-3" (click)="onCategoryClick('Travel')">
+            <img class="card-img img-responsive center-block"  [ngClass]="{'selected' : selectedCategory == 'Travel'}" src="../../assets/images/travel-340x230.jpg" alt="Card image cap">
+            <div class="card-img-overlay">
+              <div class="card-body">
+                <h5 class="card-title">Travel</h5>
+              </div>
+            </div>
+        </div>
+        <div class="card col-xs-6 col-sm-3" (click)="onCategoryClick('Commercial')">
+            <img class="card-img img-responsive center-block"  [ngClass]="{'selected' : selectedCategory == 'Commercial'}" src="../../assets/images/commercial-340x230.jpg" alt="Card image cap">
+            <div class="card-img-overlay">
+              <div class="card-body">
+                <h5 class="card-title">Commercial</h5>
+              </div>
+            </div>
+        </div>
+        <div class="card col-xs-6 col-sm-3" (click)="onCategoryClick('Video')">
+            <img class="card-img img-responsive center-block"  [ngClass]="{'selected' : selectedCategory == 'Video'}" src="../../assets/images/commercial-340x230.jpg" alt="Card image cap">
+            <div class="card-img-overlay">
+              <div class="card-body">
+                <h5 class="card-title">Video</h5>
+              </div>
+            </div>
+        </div>
+      </div>
+
+  </div>
+</div>

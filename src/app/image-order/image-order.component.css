@@ -1,0 +1,7 @@
+.container {
+  margin-top: 1em;
+  padding: 1em;
+  background-color: rgba(138, 94, 53, 0.7);
+  border: 1em dashed rgba(138, 94, 53, 1.0);
+  border-radius: 2em;
+}

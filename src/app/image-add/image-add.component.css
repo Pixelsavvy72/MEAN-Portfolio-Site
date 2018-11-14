@@ -1,0 +1,13 @@
+.container {
+  margin-bottom: 2em;
+}
+
+label {margin-top: 1em; }
+
+.edit-button { margin-top: 1em; }
+
+select.ng-invalid.ng-touched, input.ng-invalid.ng-touched {
+  border: 2px solid red;
+  box-shadow: 0px 0px 17px red;
+}
+

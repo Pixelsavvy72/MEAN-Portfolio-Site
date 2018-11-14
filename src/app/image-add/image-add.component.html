@@ -1,0 +1,76 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-10 col-md-8">
+      <form [formGroup]="addImageForm" (ngSubmit)="onSubmit()">
+
+        <!-- ORDER CONTROL -->
+        <label for="imageOrder">Order</label>
+        <input
+          type="text"
+          id="imageOrder"
+          formControlName="imageOrder"
+          class="form-control"
+        >
+
+        <!-- NAME CONTROL -->
+        <label for="imageName">Image Title</label>
+        <input
+          type="text"
+          id="imageName"
+          formControlName="imageName"
+          class="form-control"
+        >
+
+        <!-- DESCRIPTION CONTROL -->
+        <label for="imageDesc">Description</label>
+        <textarea
+          type="text"
+          rows="5"
+          id="imageDesc"
+          formControlName="imageDesc"
+          class="form-control"
+        ></textarea>
+
+        <!-- CATEGORY CONTROL -->
+        <label for="imageCat">Category</label>
+        <select
+          id="imageCat"
+          formControlName="imageCat"
+          class="form-control"
+        >
+          <option>Humanitarian</option>
+          <option>Travel</option>
+          <option>Commercial</option>
+          <option>Video</option>
+        </select>
+
+        <!-- IMAGE URL CONTROL -->
+        <label for="imageUrl">Image URL</label>
+        <input
+          type="text"
+          id="imageUrl"
+          formControlName="imageUrl"
+          class="form-control"
+        >
+
+        <!-- THUMBNAIL URL CONTROL -->
+        <label for="thumbnailUrl">Thumbnail URL</label>
+        <input
+          type="text"
+          id="thumbnailUrl"
+          formControlName="thumbnailUrl"
+          class="form-control"
+        >
+
+        <button type="submit" class="btn btn-success" [disabled]="!addImageForm.valid">Save</button>
+        <button type="button" class="btn btn-warning" (click)="onSubmitOrCancel()">Cancel</button>
+        <button type="button" class="btn btn-danger pull-right" (click)="onDelete()">Delete</button>
+
+
+      </form>
+    </div>
+    <div class="col-xs-12 col-md-4">
+        <app-image-order></app-image-order>
+    </div>
+  </div>
+</div>
