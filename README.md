@@ -1,27 +1,19 @@
-# ArtfolioApp
+# MEAN Portfolio App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.2.
+I am creating this for my nephew's photography site (note: The images here aren't his except in the title bar. Those in the body are just placeholders).<br> 
+Though similar to my other portfolio app, this one is MEAN stack and uses Angular single page technology with two-way data binding. Once logged in, a user or users can create new images and edit existing images through a simple form. Details such as image title and description, as well as the order on the page can all be controlled from within each individual image's form. Selecting a category on the top instantly displays the images within that category without the need to change or reload pages.
 
-## Development server
+Functionality
+- Angular single page application
+- Mobile first design
+- RESTful routes
+- User defined ordering of projects on homepage
+- Login / logout
+- Authentication and authorization
+- Full CRUD operations
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+<img src="https://github.com/Pixelsavvy72/MEAN-Portfolio-Site/blob/master/screenshots/homeAllWide.png" width="800">
+<img src="https://github.com/Pixelsavvy72/MEAN-Portfolio-Site/blob/master/screenshots/homeTravel.png" width="800">
+<img src="https://github.com/Pixelsavvy72/MEAN-Portfolio-Site/blob/master/screenshots/loggedIn.png" width="800">
+<img src="https://github.com/Pixelsavvy72/MEAN-Portfolio-Site/blob/master/screenshots/modalImage.png" width="800">
+<img src="https://github.com/Pixelsavvy72/MEAN-Portfolio-Site/blob/master/screenshots/editScreen.png" width="800">
